@@ -125,6 +125,25 @@ section {
   color: #06c167;
   transform: translateY(-5px);
 }
+.lines {
+  width: 80%;
+  height: 2.5px;
+
+  margin: 5% 10% 0% 10%;
+  background-color: #707070;
+  display: inline-block;
+  text-align: center;
+}
+
+.services {
+  margin: 2% 10% 2% 10%;
+  width: 1, 170px;
+  height: 185px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 @media (max-width: 1535px) {
   header {
@@ -210,13 +229,24 @@ section {
   }
   .icons {
     position: relative;
-    margin: 100px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
   }
   .hero-text > h1 {
     text-align: center;
+  }
+  .services {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 5px;
+  }
+  .lines {
+    margin-left: 20%;
   }
 }
