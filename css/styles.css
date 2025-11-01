@@ -208,4 +208,15 @@ section {
     width: 100%;
     height: auto;
   }
+  .icons {
+    position: relative;
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-text > h1 {
+    text-align: center;
+  }
 }
