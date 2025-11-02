@@ -145,6 +145,33 @@ section {
   justify-content: space-between;
 }
 
+.benifits {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  padding: 0 19%;
+}
+
+.benifits-img {
+  background-color: #f3fafb;
+}
+.benifits-description > h2 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 60px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.check-items {
+}
+
 @media (max-width: 1535px) {
   header {
     padding: 15px 3%;
@@ -244,9 +271,40 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 25px 5px;
+    margin: 20% 8px;
   }
-  .lines {
-    margin-left: 20%;
+
+  .benifits {
+    display: inline-block;
+    align-items: center;
+  }
+  .benifits img {
+    width: 300px;
+    margin: 10% 70% 10% 0%;
+    left: 0;
+  }
+  .benifits-description {
+    margin-top: 10%;
+  }
+  .benifits-description > h2 {
+    margin: 10% 0% 10% -40%;
+    padding: 0 10px 0 32px;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 35px;
+    /* leading-trim: NONE; */
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .benifits-description .check-items {
+    margin-top: 10%;
+    width: 250.99951171875;
+    height: 19.387531280517578;
+
+    top: 2452px;
+    left: 51px;
   }
 }
