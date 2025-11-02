@@ -10,7 +10,7 @@
   background-color: #f3fcf7;
   width: 1447;
   height: 5559;
-  angle: 0 deg;
+  /* angle: 0 deg; */
   opacity: 1;
   top: -8px;
 }
@@ -218,7 +218,7 @@ section {
   font-weight: 400;
   font-style: Regular;
   font-size: 15px;
-  leading-trim: NONE;
+  /* leading-trim: NONE; */
   line-height: 100%;
   letter-spacing: 0%;
   color: #1d1d1f;
@@ -236,6 +236,51 @@ section {
 
 .vegie-button {
   margin-left: 2%;
+}
+
+.feature-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  margin: 10% 30%;
+  flex-direction: column;
+}
+.feature-title > h2 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 60px;
+  /* leading-trim: NONE; */
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 8%;
+}
+
+.feature-box {
+  margin: 0% 35%;
+  display: flex;
+}
+.row-one {
+  display: flex;
+}
+.f-img-size {
+  width: 292.5px;
+  height: 292.5px;
+}
+.bg-card {
+  width: 292.5px;
+  height: 292.5px;
+
+  opacity: 1;
+  top: 3006px;
+  left: 427.5px;
+  background-color: #f3fcf7;
+}
+.card-title,
+.card-description,
+.card-btn {
+  padding: 10%;
 }
 
 @media (max-width: 1535px) {
@@ -316,6 +361,10 @@ section {
 }
 
 @media (max-width: 680px) {
+  #menu-icon {
+    display: block;
+    position: relative;
+  }
   .hero-img img {
     width: 100%;
     height: auto;
@@ -389,7 +438,7 @@ section {
   .grid2,
   .grid3 {
     /* display: inline; */
-    justify-content: ;
+
     margin: 0px 10px 0px 100px;
     padding: 5%;
   }
@@ -397,5 +446,38 @@ section {
     width: 100%;
     margin: 20% 70% 10% 0%;
     left: 0;
+  }
+
+  .feature-box {
+    width: 100%;
+    display: inline-block;
+  }
+  .row-one {
+    display: block;
+  }
+  .feature-one {
+    margin: 10% 0px 10% -50px;
+  }
+
+  .feature-two {
+    margin: 10px 0px 10px -50px;
+  }
+  .feature-three {
+    margin: 10px 0px 10px -50px;
+  }
+  .feature-four {
+    margin: 10px 0px 10px -50px;
+  }
+  .f-card-one {
+    margin-bottom: 10%;
+  }
+  .f-card-two {
+    margin-bottom: 10%;
+  }
+  .f-card-three {
+    margin-bottom: 10%;
+  }
+  .f-card-four {
+    margin-bottom: 10%;
   }
 }
